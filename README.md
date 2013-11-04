@@ -1,4 +1,4 @@
-stream.h
+Hook.h
 ========
 
-Stream API in C using libuv
+Providing publish/subscribe implementation in C using libuv event emitting capabilities.

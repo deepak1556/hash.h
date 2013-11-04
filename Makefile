@@ -7,12 +7,12 @@ export LD_LIBRARY_PATH
 all: clean test
 
 clean:
-	rm -f stream-test
+	rm -f hook-test
 	cd ./examples && $(MAKE) clean
 
 test:
-	$(CC) test.c $(CFLAGS) -o stream-test
-	./stream-test
+	$(CC) test.c $(CFLAGS) -o hook-test
+	./hook-test
 
 examples:
 	cd ./examples && $(MAKE)
