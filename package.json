@@ -1,0 +1,9 @@
+{
+  "name": "stream.h",
+  "version": "0.0.1",
+  "repo": "deepak1556/stream.h",
+  "description": "Streams in C using libuv",
+  "keywords": ["stream", "libuv", "async"],
+  "license": "MIT",
+  "src": ["stream.h"]
+}
